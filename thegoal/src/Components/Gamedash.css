@@ -1,0 +1,39 @@
+p{
+    text-align: right;
+    margin-right: 10% ;
+    color: #BBBBB1;
+}
+
+
+#Mode{
+    margin-left: 25%;
+}
+
+
+/* Style the select element */
+select {
+  /* remove appearance: none */
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  color: #333;
+  font-size: 16px;
+  padding: 8px 12px;
+  width: 200px;
+}
+
+/* Style the arrow icon */
+select::after {
+  content: "\25BC";
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+/* Style the options */
+select option {
+  background-color: #fff;
+  color: #333;
+}

@@ -1,0 +1,11 @@
+.dice-roll{
+    margin-left: 45%;
+    margin-top: 5%;
+}
+/* .dice-value{
+    visibility: hidden;
+} */
+
+.diecss{
+    cursor: pointer;
+}

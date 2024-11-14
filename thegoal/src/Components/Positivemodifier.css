@@ -1,0 +1,21 @@
+.positive-modifier{
+    color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    text-shadow: 0 0 3px #313ecd, 0 0 5px #c91eaf;
+    margin-left: 10%;
+    margin-bottom: 3%;
+}
+
+#modifier{
+    width: 10%;
+    height: 10%;
+    text-shadow: 0 0 3px #313ecd, 0 0 5px #2314c9;
+    margin-left:  3%;
+}
+
+#play-button{
+    width: 10%;
+    height: 5%;
+    margin-left:  10%;
+}

@@ -1,0 +1,44 @@
+h1{
+    font-size: 3rem;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+}
+
+h2{
+    text-shadow: 0 0 3px #FF0330, 0 0 5px #0000FF;
+}
+
+.nav-title{
+    margin-right: 40%;
+}
+
+#image-anim{
+    height:7rem;
+    rotate: 0deg;
+}
+
+.anime{
+    display: flex;
+    flex-direction: row;
+}
+
+
+#image-anim {
+    animation: flip 0.7s forwards;
+    transform-style: preserve-3d;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+    margin-top: 12%;
+  }
+  
+  @keyframes flip {
+    0% {
+      transform: perspective(800px) rotateY(0deg);
+    }
+    50% {
+      transform: perspective(800px) rotateY(180deg);
+    }
+    100% {
+      transform: perspective(800px) rotateY(360deg);
+    }
+  }
+  

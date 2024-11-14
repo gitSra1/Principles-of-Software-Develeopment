@@ -1,0 +1,96 @@
+.margins h1{
+    text-align: center;
+    color: rgb(22, 30, 36);
+}
+
+.margins h3{
+    background-color: white;
+
+    opacity: 0.8;
+}
+
+#Start-Game{
+    margin-left: 50%;
+}
+
+#Muggle{
+    margin-right: 25%;
+}
+
+#hermione{
+    height: 8rem;
+    width:15%;
+    rotate: 180deg;
+}
+
+.opening{
+    margin-left: 40%;
+    display: flex;
+    flex-direction: row;
+}
+
+
+#Start-Game {
+    display: inline-block;
+    background-color: rgba(52, 152, 219, 0.2);
+
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+  }
+  
+  #Start-Game:hover {
+    background-color: #2980b9;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    transform: translateY(-2px);
+  }
+  
+  /* Define some variables for colors and animation timings */
+:root {
+    --bg-color: #1d1f20;
+    --text-color: #d7b94c;
+    --caret-color: white;
+    --text-length: 100;
+    --animation-time: 4s;
+  }
+  
+  /* Set up the basic page layout and font styles */
+ 
+  
+  
+  
+  /* Define the styles for the typing effect */
+  .typing {
+    position: relative;
+  }
+  
+  .typing::after {
+    content: "|";
+    position: absolute;
+    right: 0;
+    width: 100%;
+    color: var(--caret-color);
+    background-color: var(--bg-color);
+    animation: typing var(--animation-time) steps(var(--text-length)) forwards, caret 1s infinite;
+  }
+  
+  /* Define the keyframes for the typing and caret animations */
+  @keyframes typing {
+    to {
+      width: 0;
+    }
+  }
+  
+  @keyframes caret {
+    50% {
+      color: transparent;
+    }
+  }
+  
+  

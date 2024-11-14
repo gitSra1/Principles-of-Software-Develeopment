@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  font-family: 'Harry Potter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+   background: url('./Components/assets/background.webp' );
+  background-repeat: no-repeat;
+  background-size: 100% 60rem; 
+  font-family: 'Harry Potter', sans-serif;
+  cursor: url('../src/Components/assets/wand.gif'), auto;
+}
+
+img{
+  opacity: 0.9; 
+}
+
+
+
+
+
+
