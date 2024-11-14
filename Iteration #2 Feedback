@@ -1,0 +1,9 @@
+I really liked your team switching to a JavaScript framework like React!
+Picking up Jest for testing was a great idea!
+When attempting to follow the README.md I got the following:
+
+waydestallmann@Waydes-MacBook-Pro-2 Gryffindor % npm install
+zsh: command not found: npm
+waydestallmann@Waydes-MacBook-Pro-2 Gryffindor % 
+
+For the next demo please share only working software. I know your team is having to learn a JavaScript framework, and that's great. I'd like to see what you can do with it. If writing tests proves too difficult please focus on working functionality.

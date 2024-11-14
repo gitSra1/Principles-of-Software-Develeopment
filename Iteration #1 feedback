@@ -1,0 +1,9 @@
+index.html - Simple UI, I like the split out of separate js imports, it helps keep things small/clean testable. 
+
+bucket.js - Not sure I like the idea of creating an HTML bucket inside of JS, doesn't seem useful, possible overengineering. 
+
+die.js - Lots of if/else, big methods. Much refactoring to be done here. 
+
+script.js - nice small file, only one big method that is easily refactored/clean. With this being handrolled Javascript its "old school". You would benefit a lot by moving to a JS framework.
+
+tests.js - Needs unit tests.
